@@ -1,7 +1,8 @@
 const container = document.querySelector('.box-area')
-let element;
 
 for (let i = 1; i <= 100; i++) {
+    let element;
+
     if (i % 3 === 0) {
         element = `<div class="box box-green>Fizz</div>"`
     }
@@ -14,7 +15,9 @@ for (let i = 1; i <= 100; i++) {
     else {
         element = `<div class="box box-blue>${i}</div>"`
     }
+
+    container.innerHTML += element;
 }
 
-container.innerHTML += element;
+
 

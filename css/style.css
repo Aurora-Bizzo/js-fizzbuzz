@@ -12,12 +12,18 @@ body {
     font-size: 85px;
 }
 
+.container {
+    padding: 0 100px;
+    font-size: 30px;
+}
+
 .box {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 5px;
 }
 
 .box-green {
